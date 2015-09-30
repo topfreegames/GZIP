@@ -1,9 +1,11 @@
-@import Foundation;
+#import <Foundation/Foundation.h>
 
-//! Project version number for GZIP.
-FOUNDATION_EXPORT double GZIPVersionNumber;
 
-//! Project version string for GZIP.
-FOUNDATION_EXPORT const unsigned char GZIPVersionString[];
+@interface NSData (GZIP)
 
-#import <GZIP/NSData+GZip.h>
+- (NSData *)gzippedDataWithCompressionLevel:(float)level;
+- (NSData *)gzippedData;
+- (NSData *)gunzippedData;
+- (BOOL)isGzippedData;
+
+@end
