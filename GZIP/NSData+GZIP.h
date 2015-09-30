@@ -36,9 +36,9 @@
 
 @interface NSData (GZIP)
 
-- (nullable NSData *)gzippedDataWithCompressionLevel:(float)level;
-- (nullable NSData *)gzippedData;
-- (nullable NSData *)gunzippedData;
+- (NSData *)gzippedDataWithCompressionLevel:(float)level;
+- (NSData *)gzippedData;
+- (NSData *)gunzippedData;
 - (BOOL)isGzippedData;
 
 @end
