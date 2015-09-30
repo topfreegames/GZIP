@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = 'GZIP'
-  s.version      = '1.1.1'
+  s.name         = 'TopGZIP'
+  s.version      = '1.0.0'
   s.license      = 'zlib'
   s.summary      = 'GZIP is category on NSData that provides simple gzip compression and decompression functionality.'
   s.homepage     = 'https://github.com/nicklockwood/GZIP'
